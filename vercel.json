@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/login", "dest": "/api/login" },
+    { "src": "/logout", "dest": "/api/logout" },
+    { "src": "/(.*)", "dest": "/api/index" }
+  ]
+}
